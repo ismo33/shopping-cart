@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dom checkpoint</title>
+</head>
+<body>
+    <header>Shopping cart</header>
+    <main id="container">
+        <div class="display">
+            <h3>Total</h3>
+            <input type="text"  id="display" disabled value="0">
+        </div>
+        
+        <div class="card" id="1">
+            <i class="fa-solid fa-circle-xmark fa-2xl delete"></i>
+            <img src="green-basket.jpg" alt="basket image">
+            <span class="price">85$</span>
+            <i class="fa-regular fa-heart fa-lg"></i>
+            <!-- <i class="fa-solid fa-heart fa-lg"></i> -->
+            <div class="description">
+                <h3>Nike SB Bruin</h3>
+                <p>Green</p>
+            </div>
+            <i class="fa-solid fa-circle-plus fa-lg"></i>
+            <input type="text" disabled class="quantity" value="0">
+            <i class="fa-solid fa-circle-minus fa-lg"></i>
+            <input type="text" class="total-price" disabled  value="0">
+
+        </div>
+        <div class="card" id="2">
+            <i class="fa-solid fa-circle-xmark fa-2xl delete"></i>
+            <img src="black-basket.jpg" alt="basket image">
+            <span class="price">90$</span>
+            <i class="fa-regular fa-heart fa-lg"></i>
+            <!-- <i class="fa-solid fa-heart fa-lg"></i> -->
+            <div class="description">
+                <h3>Nike Dunk High By You</h3>
+                <p>Black</p>
+            </div>
+            <i class="fa-solid fa-circle-plus fa-lg"></i>
+            <input  type="text"  disabled class="quantity" value="0">
+            <i class="fa-solid fa-circle-minus fa-lg"></i>
+            <input type="text" class="total-price" disabled value="0" >
+
+        </div>
+        <div class="card" id="3">
+            <i class="fa-solid fa-circle-xmark fa-2xl delete"></i>
+            <img src="pink-basket.jpg" alt="basket image">
+            <span class="price">100$</span>
+            <i class="fa-regular fa-heart fa-lg"></i>
+            <!-- <i class="fa-solid fa-heart fa-lg"></i> -->
+            <div class="description">
+                <h3>Nike Air Force Mid 1</h3>
+                <p>Pink</p>
+            </div>
+            <i class="fa-solid fa-circle-plus fa-lg"></i>
+            <input type="text" disabled class="quantity" value="0">
+            <i class="fa-solid fa-circle-minus fa-lg"></i>
+            <input type="text" class="total-price" disabled value="0" >
+
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

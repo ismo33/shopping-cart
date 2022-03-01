@@ -1,0 +1,73 @@
+
+body{
+    margin: 20px;
+    height: 200vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    
+    margin-bottom: 30px;
+}
+.display{
+display: flex;
+justify-content: center;
+}
+.display input{
+    margin-left: 20px;
+    border: solid 1px rgb(226, 214, 214);
+    background-color: white;
+    border-radius: 50px;
+
+}
+.card{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card img{
+    width: 280px;
+    height: 170px;
+}
+
+    
+.description{
+    width: 140px;
+}
+.description p{
+color: grey;
+}
+
+.quantity{
+    border: solid 1px rgb(226, 214, 214);
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+    margin: 0;
+}
+.total-price {
+    border: solid 1px rgb(226, 214, 214);
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 120px;
+}
+.delete:hover{
+    opacity: 0.8;
+}
+ input{
+     text-align: center;
+     font-weight: bold;
+ }
+ .card span{
+     font-weight: bold;
+     font-size: 15px;
+     margin-left: 0;
+     padding-left: 0;
+ }
+ #display{
+     font-size: 20px;
+ }
